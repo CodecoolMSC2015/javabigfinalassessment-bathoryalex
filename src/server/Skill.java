@@ -9,8 +9,12 @@ public class Skill
     String description;
     double rate;
 
-    Skill(String, String)
-    {}
+    public Skill(String name, String description, double rate)
+    {
+        this.name = name;
+        this.description = description;
+        this.rate = rate;
+    }
 
     String getName()
     {

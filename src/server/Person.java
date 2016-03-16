@@ -8,14 +8,17 @@ import java.util.List;
 public class Person
 {
     String name;
+
+    public Person(String name, String email, List<Skill> skillset)
+    {
+        this.name = name;
+        this.email = email;
+        this.skillset = skillset;
+    }
+
     String email;
     List<Skill> skillset;
 
-    Person(String, String)
-    {}
-
-    Person()
-    {}
 
     String getName()
     {
@@ -45,8 +48,6 @@ public class Person
     void setSkillset(List<Skill> skillset)
     {
         this.skillset = skillset;
-    }
+    } cc
 
-    void addSkill(Skill)
-    {}
 }
